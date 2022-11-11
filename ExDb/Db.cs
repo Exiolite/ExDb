@@ -2,8 +2,9 @@ using System;
 using System.IO;
 using System.Text;
 using System.Text.Json;
+using ExNoSQL;
 
-namespace ExNoSQL
+namespace ExDb
 {
     public static class Db<T> where T : Context, new()
     {

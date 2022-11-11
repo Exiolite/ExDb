@@ -6,10 +6,18 @@ namespace ExNoSQL.Tests
     [TestFixture]
     public class Tests
     {
-        [Test]
-        public void Test1()
+        [Serializable]
+        private class TestContext : Context
         {
-            Assert.True(true);
+            public TestContext() : base("D:/TestSave.exdb")
+            {
+            }
+        }
+
+        [Test]
+        public void Create_Context()
+        {
+            Db<TestContext>.Import();
         }
     }
 }
