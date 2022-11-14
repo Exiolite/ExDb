@@ -5,12 +5,12 @@ namespace ExNoSQL
     [Serializable]
     public abstract class Context
     {
-        public string FilePath { get; }
+        public string FilePathWithoutExtension { get; }
 
 
-        protected Context(string filePath)
+        protected Context(string filePathWithoutExtensionWithoutExtension)
         {
-            FilePath = filePath;
+            FilePathWithoutExtension = filePathWithoutExtensionWithoutExtension;
         }
     }
 }

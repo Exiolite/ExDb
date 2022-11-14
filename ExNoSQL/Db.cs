@@ -9,19 +9,23 @@ namespace ExNoSQL
     {
         public static T Context { get; private set; }
 
-        public static void Import()
+        
+        public static void CreateNewContext()
         {
             Context = Activator.CreateInstance<T>();
+        }
 
-            if (!File.Exists(Context.FilePath)) return;
+        public static void Import()
+        {
+            if (!File.Exists(Context.FilePathWithoutExtension)) return;
 
-            string fileText = File.ReadAllText(Context.FilePath, Encoding.UTF8);
+            string fileText = File.ReadAllText(Context.FilePathWithoutExtension, Encoding.UTF8);
             Context = JsonSerializer.Deserialize<T>(fileText);
         }
 
         public static void Export()
         {
-            File.WriteAllText(Context.FilePath, JsonSerializer.Serialize(Context));
+            File.WriteAllText($"{Context.FilePathWithoutExtension}.Save.json", JsonSerializer.Serialize(Context));
         }
     }
 }
