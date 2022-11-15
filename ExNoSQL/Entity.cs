@@ -3,7 +3,7 @@ using System;
 namespace ExNoSQL
 {
     [Serializable]
-    public class Entity
+    public abstract class Entity
     {
         public Guid Id { get; set; }
 
