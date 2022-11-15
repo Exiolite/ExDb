@@ -3,13 +3,8 @@
 	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005CGit_005CExDb_005CDll_005CSystem_002ERuntime_002ECompilerServices_002EUnsafe_002Edll/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005CGit_005CExDb_005CDll_005CSystem_002EText_002EEncodings_002EWeb_002Edll/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005CGit_005CExDb_005CDll_005CSystem_002EText_002EJson_002Edll/@EntryIndexedValue">True</s:Boolean>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=2c561aae_002Daa5e_002D4ea3_002Db949_002Db22e74fc5535/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Session" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;And&gt;&#xD;
-    &lt;TestAncestor&gt;&#xD;
-      &lt;TestId&gt;NUnit3x::45ADEB3B-2B36-4208-8DEB-5D757CB05DFD::.NETFramework,Version=v4.7.1::ExNoSQL.Tests.Tests&lt;/TestId&gt;&#xD;
-    &lt;/TestAncestor&gt;&#xD;
-    &lt;Project Location="C:\Git\ExDb\ExNoSQL.Tests" Presentation="&amp;lt;tests&amp;gt;\&amp;lt;ExNoSQL.Tests&amp;gt;" /&gt;&#xD;
-    &lt;Namespace&gt;ExNoSQL.Tests&lt;/Namespace&gt;&#xD;
-  &lt;/And&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a283d55d_002D7143_002D45f5_002D95fd_002Dbcda7ac82262/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from &amp;lt;tests&amp;gt;" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Project Location="C:\Git\ExDb" Presentation="&amp;lt;tests&amp;gt;" /&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
+	
 	</wpf:ResourceDictionary>
